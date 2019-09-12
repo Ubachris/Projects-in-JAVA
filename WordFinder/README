@@ -1,0 +1,61 @@
+Name: Uche Uba
+USC NetID: uuba
+CS 455 PA4
+Spring 2018
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+UU
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+The Anagram dictionary uses a  HashMap for processing the dictionary. For each word, it creates a cannonical form, and goes through
+the rest of the dictionary, and uses the cannonical word as a key in the map, creating an ArrayList that contains all
+the anagram of each cannonical word.
+
+The rack takes a word, and using recursion, creates a list of all it subsets.
+
+In the WordFinder class, for each word inputted by the user, the program creates a rack pbject and finds all of its
+subsets. After it does, it traverses the list containing the subsets, and uses the angagram dictionary to produce an
+ArrayList containing all the possible anagrams of the word on the rack and all its subsets. It then uses a score table
+to calculate the score of each word in the list. Finally it creates an object that stores a word and its associated
+score as a pair, and uses a WordScoreComparator class that implements the comparator interface to compare each element
+of the list, and arange them in decreasing order based on their scores. If they have matching scores, then it orders
+them based on the alphabetical ordering of the words.
+----------------------------------------------
+DESCRIPTION OF YOUR CLASS DESIGN AND ALGORITHMS AND DATA STRUCTURES USED:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+
+
+
+
+
+

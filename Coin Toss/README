@@ -1,0 +1,60 @@
+Name: Uche Uba
+USC NetId: 9239603212
+CSCI 455 PA1
+Spring 2018
+
+----------------------------------------------
+CERTIFY IT'S YOUR WORK
+
+"I certify that the work submitted for this assignment does not
+violate USC's student conduct code.  In particular, the work is my
+own, not a collaboration, and does not involve code created by other
+people, except for the the resources explicitly mentioned in the CS 455
+Course Syllabus.  And I did not share my solution or parts of it with
+other students in the course."
+
+Initial below to "sign" the above statement:
+
+UU
+----------------------------------------------
+ACKNOWLEDGE ANY OUTSIDE SOURCES
+
+List here any code you submitted for this assignment that was written
+with significant help of a course staff member, or code used from the
+textbook.  Be specific about what methods or algorithms are involved,
+and what sections of the textbook are involved (if applicable): [you do
+not need to list any of the code that we wrote for the assignment,
+i.e., the contents of the starter files for the assignment]
+
+
+
+----------------------------------------------
+KNOWN BUGS or LIMITATIONS:
+
+
+
+----------------------------------------------
+ANY OTHER NOTES FOR THE GRADER:
+
+1) Probability of each of the three outcomes: Two Heads- 0.25, Head and Tail- 0.25, Two Tails- 0.25
+    ii) Head and Tail probability is higher because it has a higher chance of becoming an outcome when 2 seperate coins
+        are flipped
+
+2) Trials to get results within 1% of probabilities: After run (550):
+                                                     Number of Trials [exp:2440]: 2440
+                                                     Two-head tosses: 587
+                                                     Two-tail tosses: 618
+                                                     One-head one-tail tosses: 1235
+
+   Probabilities: One-head one-tail tosses- 0.506, Two-head tosses- 0.241, Two-tail tosses: 0.253
+
+3) Number of trials before it crashes with an overflow error:
+   Largest value when it still worked correctly: 999999999
+   Largest value that caused it to overflow: 1000000000
+
+----------------------------------------------
+ANSWERS TO ASSIGNMENT README QUESTIONS (if applicable):
+
+
+
+
